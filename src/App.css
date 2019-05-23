@@ -1,0 +1,81 @@
+body{
+  font-size: 16px;
+  line-height: 30px;
+  color: #494949;
+  text-align: justify;
+}
+
+.app-menu a{
+  margin:0 2em;
+  color:white;
+  cursor:pointer;
+}
+.app-menu a:hover{
+  color:white;
+  text-decoration:underline;
+}
+.section-1 {
+  height:100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-1 h1{
+  font-size: 3rem;
+}
+
+.home-top-banner {
+  background: url("./Assets/slider.jpg") no-repeat center center; 
+  min-height: 840px; 
+  background-size: cover; 
+  position:relative; 
+  background-attachment:fixed;
+
+}
+
+.header {
+  padding: 0 5em;
+  font-size: 1.3em;
+}
+
+.app-menu-get-started {
+  background-color:#85b341;
+  border-radius: 5%;
+  
+}
+
+a.app-menu-get-started {
+  padding: .5em 1.5em;
+}
+
+a.app-menu-get-started:hover {
+  text-decoration: none;
+}
+
+.app-menu-my-account {
+  text-align: right;
+  margin-top:1em;
+  padding: 0;
+}
+
+.curve {
+  background-image: url("./Assets/curve.png")
+}
+
+.coming-soon {
+  background-image: url("./Assets/slider.jpg")
+}
+
+.primary-action {
+  background-color: #85b341
+}
+.footermenuitem:hover{
+  color: transparent !important;
+}
+hr{
+  border-top: 1px solid rgba(255,255,255,.1) !important;
+}
